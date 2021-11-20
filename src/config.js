@@ -22,19 +22,15 @@ module.exports = {
     {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/ayushsgoel/',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/chandrikadeb7',
-    },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/___cd.___/',
-    },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/chandrikadeb7',
-    },
+    }
+    // {
+    //   name: 'Instagram',
+    //   url: 'https://www.instagram.com/___cd.___/',
+    // },
+    // {
+    //   name: 'Twitter',
+    //   url: 'https://twitter.com/chandrikadeb7',
+    // },
   ],
 
   navLinks: [
@@ -53,6 +49,10 @@ module.exports = {
     {
       name: 'Projects',
       url: '/#projects',
+    },
+    {
+      name: 'Skills',
+      url: '/#skills',
     },
     {
       name: 'Contact',

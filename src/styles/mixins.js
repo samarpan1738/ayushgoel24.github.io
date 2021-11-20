@@ -114,6 +114,28 @@ const mixins = {
     }
   `,
 
+  roundButton: css`
+    color: ${colors.green};
+    background-color: transparent;
+    border: 1px solid ${colors.green};
+    border-radius: ${theme.roundButtonBorderRadius};
+    padding: 1.25rem 1.75rem;
+    font-size: ${fontSizes.sm};
+    font-family: ${fonts.SFMono};
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: ${theme.transition};
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: ${colors.transGreen};
+    }
+    &:after {
+      display: none !important;
+    }
+  `,
+
   sidePadding: css`
     padding: 0 150px;
     ${media.desktop`padding: 0 100px;`};

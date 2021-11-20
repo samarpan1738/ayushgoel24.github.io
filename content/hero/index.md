@@ -1,7 +1,7 @@
 ---
 title: 'Hi, my name is'
 name: 'Ayush Goel'
-subtitle: 'Machine Learning | Computer Vision | Robotics'
+subtitle: 'Robotics | Computer Vision | Machine Learning'
 buttonText: 'Connect with Me!'
 ---
 
