@@ -124,9 +124,6 @@ const About = ({ data }) => {
       <StyledFlexContainer>
         <StyledContent>
           <div dangerouslySetInnerHTML={{ __html: html }} />
-          <SkillsContainer>
-            {skills && skills.map((skill, i) => <Skill key={i}>{skill}</Skill>)}
-          </SkillsContainer>
         </StyledContent>
         <StyledPic>
           <StyledAvatarLink href={github}>
