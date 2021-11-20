@@ -34,6 +34,8 @@ const StyledLabel = styled.h4`
 `;
 const StyledProjectName = styled.h5`
   font-size: 28px;
+  position: relative;
+  z-index: 2;
   margin: 0 0 20px;
   color: ${colors.lightestSlate};
   ${media.tablet`font-size: 24px;`};
@@ -223,7 +225,6 @@ const Featured = ({ data }) => {
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
             const { external, title, tech, github, cover } = frontmatter;
-            console.log("cover : ",cover)
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
                 <StyledContent>
