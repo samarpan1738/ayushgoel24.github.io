@@ -172,7 +172,7 @@ const StyledProject = styled.div`
   &:focus {
     outline: 0;
     ${StyledProjectInner} {
-      transform: translateY(-5px);
+      transform: perspective(1000px) translateZ(25px);
     }
   }
 `;
