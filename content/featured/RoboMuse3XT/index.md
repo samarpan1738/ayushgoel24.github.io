@@ -14,9 +14,9 @@ showInFeatured: true
 showInProjects: true
 ---
 
-Developed a Semi-Autonomous mobile robot from scratch capable of being operated remotely or autonomously in a pre-defined path.
+Developed a Semi-Autonomous mobile robot from scratch capable of being operated remotely or autonomously in a pre-defined path.<br><br>
 
-Incorporated the capabilities of live video surveillance and face recognition to enhance security.
+Incorporated the capabilities of live video surveillance and face recognition to enhance security.<br><br>
 
 The robot is cheap and flexible, and has implementations in several domains: surveillance, industries, research.
 

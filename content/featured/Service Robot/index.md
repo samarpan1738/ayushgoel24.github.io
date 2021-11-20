@@ -15,9 +15,9 @@ showInFeatured: true
 showInProjects: true
 ---
 
-Developed and installed a 4 DoF Robotic arm with a payload capacity of 300 gm on RoboMuse3XT.
+Developed and installed a 4 DoF Robotic arm with a payload capacity of 300 gm on RoboMuse3XT. <br><br>
 
-Implemented the ROS Navigation Stack to map the surrounding environment. 
+Implemented the ROS Navigation Stack to map the surrounding environment. <br><br>
 
 Implemented Pattern Recognition to identify different medical equipment and developed an Android application to recognize the voice commands.
 
