@@ -1,19 +1,17 @@
 module.exports = {
   siteTitle: 'Ayush Goel | Software Engineer',
-  // TODO: Change siteDescription, siteKeywords, siteUrl, googleAnalyticsID, googleVerification
   siteDescription:
-    'Chandrika Deb is a Software Engineer at Amdocs, who loves learning new things and helping tech beginners.',
+    'Ayush Goel is a Senior Software Development Engineer at Unicommerce eSolutions Pvt. Ltd., who loves learning new things and helping tech beginners.',
   siteKeywords:
-    'Chandrika Deb, Chandrika, Deb, chandrikadeb7, software engineer, face mask, face mask detection, web developer, javascript, girlscript, jamshedpur, amdocs, bit, mesra, deoghar',
+    'Ayush Goel, Ayush, Goel, ayushgoel24, software engineer, robots, opencv, computer vision, unicommerce, robomuse, perception, sensors',
   siteUrl: 'https://ayushgoel24.github.io/',
   siteLanguage: 'en_US',
-  googleAnalyticsID: 'UA-45666519-2',
-  googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
+  // googleAnalyticsID: 'UA-45666519-2',
+  // googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
   name: 'Ayush Goel',
   location: 'Delhi, India',
   email: 'ayush.goel2427@gmail.com',
   github: 'https://github.com/ayushgoel24',
-  // twitterHandle: '@chandrikadeb7',
   socialMedia: [
     {
       name: 'GitHub',
@@ -23,14 +21,6 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/ayushsgoel/',
     }
-    // {
-    //   name: 'Instagram',
-    //   url: 'https://www.instagram.com/___cd.___/',
-    // },
-    // {
-    //   name: 'Twitter',
-    //   url: 'https://twitter.com/chandrikadeb7',
-    // },
   ],
 
   navLinks: [
