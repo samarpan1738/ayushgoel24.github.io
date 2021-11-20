@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
-import { Layout, Hero, About, Jobs, Education, Skills, Featured, Projects, Contact } from '@components';
+import { Layout, Hero, About, Jobs, Education, Skills, Featured, Contact } from '@components';
 import styled from 'styled-components';
 import { Main } from '@styles';
 
