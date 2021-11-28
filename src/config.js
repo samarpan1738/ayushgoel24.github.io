@@ -6,7 +6,7 @@ module.exports = {
     'Ayush Goel, Ayush, Goel, ayushgoel24, software engineer, robots, opencv, computer vision, unicommerce, robomuse, perception, sensors',
   siteUrl: 'https://ayushgoel24.github.io/',
   siteLanguage: 'en_US',
-  // googleAnalyticsID: 'UA-45666519-2',
+  googleAnalyticsID: 'G-DF08LZ480D',
   // googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
   name: 'Ayush Goel',
   location: 'Delhi, India',
