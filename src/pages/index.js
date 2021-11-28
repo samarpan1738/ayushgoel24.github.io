@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
-import { Layout, Hero, About, Jobs, Education, Skills, Featured, Contact } from '@components';
+import { Layout, Hero, About, Jobs, Education, Skills, Featured, Certifications, Contact } from '@components';
 import styled from 'styled-components';
 import { Main } from '@styles';
 
@@ -19,6 +19,7 @@ const IndexPage = ({ location, data }) => (
       <Featured data={data.featured.edges} />
       {/* <Projects data={data.projects.edges} /> */}
       <Skills data={data.skills.edges} />
+      <Certifications data={data.certifications.edges} />
       <Contact data={data.contact.edges} />
     </StyledMainContainer>
   </Layout>
@@ -67,7 +68,7 @@ export const pageQuery = graphql`
     jobs: allMarkdownRemark(
       filter: {
         fileAbsolutePath: { regex: "/jobs/" }
-        frontmatter: { showInExperience: { ne: false } }
+        frontmatter: { showInExperience: { eq: true } }
       }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
@@ -88,7 +89,7 @@ export const pageQuery = graphql`
     education: allMarkdownRemark(
       filter: {
         fileAbsolutePath: { regex: "/education/" }
-        frontmatter: { showInEducation: { ne: false } }
+        frontmatter: { showInEducation: { eq: true } }
       }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
@@ -110,7 +111,7 @@ export const pageQuery = graphql`
     featured: allMarkdownRemark(
       filter: {
         fileAbsolutePath: { regex: "/featured/" }
-        frontmatter: { showInFeatured: { ne: false } }
+        frontmatter: { showInFeatured: { eq: true } }
       }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
@@ -136,7 +137,7 @@ export const pageQuery = graphql`
     projects: allMarkdownRemark(
       filter: {
         fileAbsolutePath: { regex: "/projects/" }
-        frontmatter: { showInProjects: { ne: false } }
+        frontmatter: { showInProjects: { eq: true } }
       }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
@@ -147,6 +148,27 @@ export const pageQuery = graphql`
             tech
             github
             external
+          }
+          html
+        }
+      }
+    }
+    certifications: allMarkdownRemark(
+      filter: {
+        fileAbsolutePath: { regex: "/certifications/" }
+        frontmatter: { showInCertifications: { eq: true } }
+      }
+      sort: { fields: [frontmatter___priority], order: ASC }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            course
+            institute
+            company
+            github
+            external
+            tech
           }
           html
         }

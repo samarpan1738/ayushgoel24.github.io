@@ -14,6 +14,8 @@ showInExperience: true
 - Integrated and maintained over 50 e-commerce marketplaces and logistic providers with the core product through REST APIs and Spring.
 
 - Spearheaded integration of International marketplaces like Lazada and Shopee, establishing the company's presence in 7 middle-eastern regions.
+
+- Awards: [Above and Beyond Call of Duty (ABCD)]()
 <!-- 
 - Drafted all the website content and promotional templates on HubSpot for the startup.
 - Reviewed the tech blogs and helped the Sales & Marketing Team.
