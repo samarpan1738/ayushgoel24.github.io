@@ -8,7 +8,7 @@ const { colors, fontSizes, fonts } = theme;
 
 const StyledContainer = styled(Section)`
   position: relative;
-  max-width: 700px;
+  max-width: 900px;
 `;
 const StyledTabs = styled.div`
   display: flex;
@@ -126,7 +126,7 @@ const StyledTabContent = styled.div`
   ${media.tablet`padding-left: 20px;`};
   ${media.thone`padding-left: 0;`};
 
-  ul {
+  .fancyTabs {
     ${mixins.fancyList};
   }
   a {
@@ -151,6 +151,30 @@ const StyledJobDetails = styled.h5`
   margin-bottom: 30px;
   svg {
     width: 15px;
+  }
+`;
+const StyledTechList = styled.ul`
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 25px 0 10px;
+  list-style-type: none;
+  & li {
+    font-family: ${fonts.SFMono};
+    font-size: ${fontSizes.smish};
+    color: ${colors.green};
+    margin-right: ${theme.margin};
+    margin-bottom: 7px;
+    white-space: nowrap;
+    &:last-of-type {
+      margin-right: 0;
+    }
+    ${media.thone`
+      color: ${colors.green};
+      margin-right: 10px;
+    `};
   }
 `;
 
@@ -197,7 +221,7 @@ const Jobs = ({ data }) => {
     <StyledContainer id="jobs" ref={revealContainer}>
       <Heading>Where I&apos;ve Worked</Heading>
       <StyledTabs>
-        <StyledTabList role="tablist" aria-label="Job tabs" onKeyDown={e => onKeyPressed(e)}>
+        <StyledTabList class="fancyTabs" role="tablist" aria-label="Job tabs" onKeyDown={e => onKeyPressed(e)}>
           {data &&
             data.map(({ node }, i) => {
               const { shortname } = node.frontmatter;
@@ -223,7 +247,7 @@ const Jobs = ({ data }) => {
         {data &&
           data.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { title, company, location, url, range } = frontmatter;
+            const { title, company, location, url, range, tech } = frontmatter;
             return (
               <StyledTabContent
                 key={i}
@@ -246,6 +270,13 @@ const Jobs = ({ data }) => {
                   <span>{range}</span>
                 </StyledJobDetails>
                 <div dangerouslySetInnerHTML={{ __html: html }} />
+                {tech && (
+                    <StyledTechList>
+                      {tech.map((tech, i) => (
+                        <li key={i}>{tech}</li>
+                      ))}
+                    </StyledTechList>
+                  )}
               </StyledTabContent>
             );
           })}

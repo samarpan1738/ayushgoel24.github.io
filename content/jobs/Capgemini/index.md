@@ -6,6 +6,14 @@ shortname: 'Capgemini'
 location: 'Pune, Maharashtra'
 range: 'Sept. 2018 - June 2019'
 url: 'https://www.capgemini.com/in-en'
+tech:
+ - Spring
+ - Java
+ - AngularJS
+ - REST
+ - SOAP
+ - Yaml
+ - Swagger
 showInExperience: true
 ---
 

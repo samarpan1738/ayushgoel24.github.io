@@ -4,6 +4,11 @@ import sr from '@utils/sr';
 import { srConfig } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section, Heading } from '@styles';
+import {
+  useWindowSize,
+  useWindowWidth,
+  useWindowHeight
+} from '@react-hook/window-size'
 const { colors, fontSizes, fonts } = theme;
 
 const StyledContainer = styled(Section)`
@@ -158,10 +163,26 @@ const Education = ({ data }) => {
   const [activeTabId, setActiveTabId] = useState(0);
   const [tabFocus, setTabFocus] = useState(null);
   const tabs = useRef([]);
-
+  const [viewFactor,setViewFactor]=useState(0.25);
+  const [width, height] = useWindowSize()
   const revealContainer = useRef(null);
-  useEffect(() => sr.reveal(revealContainer.current, srConfig()), []);
-
+  useEffect(() => sr.reveal(revealContainer.current, srConfig(200,viewFactor)), []);
+  console.log("viewFactor : ",viewFactor)
+  console.log("navigator.userAgent : ",navigator.userAgent)
+  useEffect(()=>{
+    console.log("height : ",height)
+    if (
+      /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+        navigator.userAgent
+      )
+    ) {
+      
+      setViewFactor(0.15)
+    }
+    else {
+      setViewFactor(0.25)
+    }
+  },[height])
   const focusTab = () => {
     if (tabs.current[tabFocus]) {
       tabs.current[tabFocus].focus();

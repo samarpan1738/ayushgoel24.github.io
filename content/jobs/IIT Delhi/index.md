@@ -6,6 +6,14 @@ shortname: 'IIT Delhi'
 location: 'Delhi'
 range: 'Jan. 2017 - July 2017'
 url: 'https://mech.iitd.ernet.in/content/par-lab-ii-433c'
+tech:
+ - Python
+ - OpenCV
+ - MATLAB
+ - ROS
+ - Gazebo
+ - SOlidworks
+ - Proteus
 showInExperience: true
 ---
 

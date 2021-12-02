@@ -18,7 +18,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public -b portfolio1"
+    "deploy": "gatsby build && gh-pages -d public -b portfolio1-deploy"
   },
   "husky": {
     "hooks": {
@@ -34,6 +34,7 @@
     ]
   },
   "dependencies": {
+    "@react-hook/window-size": "^3.0.7",
     "animejs": "^3.1.0",
     "babel-plugin-styled-components": "^1.10.6",
     "gatsby": "^2.24.7",
