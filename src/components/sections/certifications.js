@@ -56,6 +56,10 @@ const StyledProjectInner = styled.div`
   border-radius: ${theme.borderRadius};
   transition: ${theme.transition};
   background-color: ${colors.lightNavy};
+  & > header
+   {
+     width:100%;
+   }
 `;
 const StyledProject = styled.div`
   transition: ${theme.transition};
@@ -94,11 +98,13 @@ const StyledIconLink = styled.a`
 `;
 const StyledProjectName = styled.h5`
   margin: 0 0 10px;
+  width: 100%;
   font-size: ${fontSizes.xxl};
   color: ${colors.lightestSlate};
 `;
 const StyledProjectInstitute = styled.h5`
   margin: 0 0 10px;
+  width: 100%;
   font-size: ${fontSizes.lg};
   color: ${colors.lightestSlate};
 `;

@@ -35,7 +35,7 @@ const StyledTitle = styled.h2`
   ${media.phone`font-size: 40px;`};
 `;
 const StyledSubtitle = styled.h3`
-  font-size: 80px;
+  font-size: 44px;
   line-height: 1.1;
   color: ${colors.slate};
   ${media.desktop`font-size: 70px;`};
