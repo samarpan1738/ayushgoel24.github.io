@@ -81,6 +81,14 @@ export const pageQuery = graphql`
             location
             range
             url
+            tech
+            logo {
+              childImageSharp {
+                fluid(maxWidth: 700, quality: 90) {
+                  ...GatsbyImageSharpFluid_noBase64
+                }
+              }
+            }
           }
           html
         }

@@ -36,7 +36,7 @@
   "dependencies": {
     "animejs": "^3.1.0",
     "babel-plugin-styled-components": "^1.10.6",
-    "gatsby": "^2.24.7",
+    "gatsby": "^2.32.13",
     "gatsby-image": "^2.2.34",
     "gatsby-plugin-google-analytics": "^2.1.29",
     "gatsby-plugin-google-gtag": "^4.2.0",
@@ -55,6 +55,7 @@
     "gatsby-transformer-remark": "^2.6.39",
     "gatsby-transformer-sharp": "^2.3.7",
     "lodash": "^4.17.15",
+    "mozjpeg": "^8.0.0",
     "prismjs": "^1.25.0",
     "prop-types": "^15.7.2",
     "react": "^16.10.2",

@@ -3,6 +3,8 @@
  *
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
- export const onServiceWorkerUpdateFound = () => {
-    window.location.reload();
-  };
+//  export const onServiceWorkerUpdateFound = () => {
+//     window.location.reload();
+//   };
+
+export const onServiceWorkerUpdateReady = () => window.location.reload();
