@@ -5,6 +5,8 @@ subtitle: 'Robotics | Computer Vision | Machine Learning'
 buttonText: 'Connect with Me!'
 ---
 
+I am a graduate student studying Robotics Engineering from University of Pennsylvania, specializing in Computer Vision and Perception.
+
 <!-- I'm an India based developer with a goal-driven creative mindset and passion for learning and innovating.
 
 Currently working as a Software Engineering Associate at [Amdocs](https://www.amdocs.com/) and as a Freelance Content Writer at [Pepper Content](https://www.peppercontent.io).
