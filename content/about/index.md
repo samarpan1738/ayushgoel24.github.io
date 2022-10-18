@@ -7,6 +7,6 @@ skills:
 
 Hello!
 
-I did my undergraduation in B.E. Mechatronics Engineering from [Thapar Institute of Engineering and Technology, India](https://www.thapar.edu/). I started developing robots since I was 14 years old. I have an avid interest in the Robotics domain specifically in the field of Computer Vision and Autonomous Systems.
+I am currently a Masters in Robotics graduate student at the University of Pennsylvania. I completed my undergrad in Mechatronics Engineering and then worked as a Senior Software Development Engineer for 4 years.
 
-I'm currently working as a Senior Software Development Engineer responsible for several microservices code development and testing in [Unicommerce eSolutions Pvt. Ltd.](https://unicommerce.com/).
+As a CS Professional and a ROBO grad student, my primary interest lies in field of Autonomous Robots, Computer Vision, Machine Learning and Software Development. I designed and developed a semi-autonomous mobile robot from scratch during my undergrad, wherein I worked on the mechanical, electrical and computational aspects of a mobile robot. I hope to develop more robust solutions for mobile robots enabling them to accomplish a variety of tasks. Whether for work or pleasure, I enjoy exploring ideas that leverage technology to enhance people's lives.
