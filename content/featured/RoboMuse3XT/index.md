@@ -1,7 +1,8 @@
 ---
-date: '2'
+position: '2'
 title: 'Development of Semi-Autonomous Mobile Robot (RoboMuse3XT)'
 cover: './RoboMuse_Assistant_AIR_IITD.jpeg'
+covergif: '/RoboMuse3XT.gif'
 # github: 'https://github.com/bchiang7/spotify-profile'
 drive: 'https://drive.google.com/drive/folders/1d9j7AjqBtNM0PFZCWUwWRAdIs6ovNKb0?usp=sharing'
 external: 'https://drive.google.com/drive/folders/1d9j7AjqBtNM0PFZCWUwWRAdIs6ovNKb0?usp=sharing'

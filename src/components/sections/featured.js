@@ -145,6 +145,10 @@ const StyledImgContainer = styled.a`
       background: transparent;
       filter: none;
     }
+    img {
+      background: transparent;
+      filter: none;
+    }
   }
   &:before {
     content: '';
@@ -224,7 +228,7 @@ const Featured = ({ data }) => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover } = frontmatter;
+            const { external, title, tech, github, cover, covergif } = frontmatter;
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
                 <StyledContent>
@@ -276,7 +280,8 @@ const Featured = ({ data }) => {
                   href={external ? external : github ? github : '#'}
                   target="_blank"
                   rel="nofollow noopener noreferrer">
-                  <StyledFeaturedImg fluid={cover.childImageSharp.fluid} alt={title} />
+                    <StyledFeaturedImg fluid={cover && cover.childImageSharp.fluid} alt={title} />
+                    <img src={covergif ? covergif : null} />
                 </StyledImgContainer>
               </StyledProject>
             );

@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
-import { Layout, Hero, About, Jobs, Education, Skills, Featured, Certifications, Contact } from '@components';
+import { Layout, Hero, About, Jobs, Education, Skills, Featured, Projects, Certifications, Contact } from '@components';
 import styled from 'styled-components';
 import { Main } from '@styles';
 
@@ -17,7 +17,7 @@ const IndexPage = ({ location, data }) => (
       <Jobs data={data.jobs.edges} />
       <Education data={data.education.edges} />
       <Featured data={data.featured.edges} />
-      {/* <Projects data={data.projects.edges} /> */}
+      <Projects data={data.projects.edges} />
       <Skills data={data.skills.edges} />
       <Certifications data={data.certifications.edges} />
       <Contact data={data.contact.edges} />
@@ -121,7 +121,7 @@ export const pageQuery = graphql`
         fileAbsolutePath: { regex: "/featured/" }
         frontmatter: { showInFeatured: { eq: true } }
       }
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { fields: [frontmatter___position], order: ASC }
     ) {
       edges {
         node {
@@ -134,6 +134,7 @@ export const pageQuery = graphql`
                 }
               }
             }
+            covergif
             tech
             github
             external

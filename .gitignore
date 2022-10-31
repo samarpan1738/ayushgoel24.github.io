@@ -354,6 +354,7 @@ MigrationBackup/
 node_modules
 yarn-error.log
 package-lock.json
+yarn.lock
 
 # Build directory
 /public
@@ -361,3 +362,6 @@ package-lock.json
 
 .vscode/
 /content
+
+/vips-8.13.2
+vips-8.13.2/

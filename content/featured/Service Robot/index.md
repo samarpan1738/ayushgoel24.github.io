@@ -1,8 +1,8 @@
 ---
-date: '3'
+position: '1'
 title: 'Development of Service Robot'
 cover: './demo.webp'
-# github: 'https://github.com/bchiang7/halcyon-site'
+covergif: '/kinect_video.gif'
 external: 'https://drive.google.com/drive/folders/16nAty36Eqal1I2kL61xi82h65EnDNJ80?usp=sharing'
 tech:
   - Python

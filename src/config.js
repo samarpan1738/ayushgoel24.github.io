@@ -1,15 +1,15 @@
 module.exports = {
-  siteTitle: 'Ayush Goel | Software Engineer',
+  siteTitle: 'Ayush Goel | Robotics Engineer',
   siteDescription:
     'Ayush Goel is a Senior Software Development Engineer at Unicommerce eSolutions Pvt. Ltd., who loves learning new things and helping tech beginners.',
   siteKeywords:
-    'Ayush Goel, Ayush, Goel, ayushgoel24, software engineer, robots, opencv, computer vision, unicommerce, robomuse, perception, sensors',
+    'Ayush Goel, Ayush, Goel, ayushgoel24, software engineer, robots, opencv, computer vision, unicommerce, robomuse, perception, sensors, university of pennsylvania, upenn, masters, grasp',
   siteUrl: 'https://ayushgoel24.github.io/',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'G-DF08LZ480D',
   // googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
   name: 'Ayush Goel',
-  location: 'Delhi, India',
+  location: 'Philadelphia, Pennsylvania',
   email: 'ayush.goel2427@gmail.com',
   github: 'https://github.com/ayushgoel24',
   socialMedia: [

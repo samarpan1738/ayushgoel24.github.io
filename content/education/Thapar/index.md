@@ -10,8 +10,11 @@ url: 'https://www.thapar.edu/'
 showInEducation: true
 ---
 
-- Relevant coursework: Control Systems, Advanced Control Systems, Robotics Engineering, Signals and Systems, Digital Signal Processing, Kinematics and Dynamics of Machines.
+- **Relevant Coursework:** Control Systems, Advanced Control Systems, Robotics Engineering, Signals and Systems, Digital Signal Processing, Kinematics and Dynamics of Machines.
 
+- **Awards:** Certificate of Merit for 3 consecutive years
+
+- **Achievements:** 3<sup>RD</sup> rank in Undergrad, Merit-based Scholarships for all 4 years
 <!-- 
 - Certified in Agile, [DevOps](https://drive.google.com/file/d/133QWdIhw9KI0YMKs1SPI_6VQ1ENtMiCe/view?usp=sharing), and MS360 architecture.
 
