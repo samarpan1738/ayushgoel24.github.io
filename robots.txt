@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://ayushgoel24.github.io/sitemap/sitemap-index.xml
+Host: https://ayushgoel24.github.io
